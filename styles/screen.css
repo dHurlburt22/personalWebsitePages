@@ -8,7 +8,7 @@ body {
 
 nav {
     margin: 40px auto 0 auto;
-    width: 250px;
+    width: 600px;
     border-radius: 50px;
     background: #212431;
 }
@@ -47,4 +47,13 @@ h1 strong {
 
 img.about {
     opacity: 0.5;
+}
+
+.bigBox{
+    width:200px;
+    height:100px;
+}
+
+.alignFormText{
+    text-align: center;
 }
