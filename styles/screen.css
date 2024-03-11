@@ -4,13 +4,14 @@ body {
     background: #2D3142;
     padding: 0 40px;
     text-align: center;
+    background-color: rgb(122, 36, 130);
 }
 
 nav {
     margin: 40px auto 0 auto;
-    width: 600px;
+    width: 700px;
     border-radius: 50px;
-    background: #212431;
+    background: #000000;
 }
 
 nav ul {
@@ -30,7 +31,13 @@ nav ul li a {
     padding: 20px;
     color: #EAE8FF;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 2.2rem;
+    transition: .4s ease-in;
+}
+
+a:hover{
+    color: rgb(115, 181, 238);
+    transition: .4s ease-in;
 }
 
 h1 {
@@ -54,6 +61,14 @@ img.about {
     height:100px;
 }
 
+.userInputBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .alignFormText{
     text-align: center;
+    margin-right: 5px;
+    align-self: center;
 }
