@@ -9,8 +9,9 @@ body {
 
 nav {
     margin: 40px auto 0 auto;
-    width: 700px;
+    width: 800px;
     border-radius: 50px;
+    border:solid white 5px;
     background: #000000;
 }
 
